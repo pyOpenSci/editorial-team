@@ -5,6 +5,8 @@ labels: ["editor-onboarding"]
 assignees:
   - lwasser
   - slobentanzer
+projects:
+  - pyOpenSci/13
 body:
   - type: markdown
     attributes:
@@ -15,7 +17,7 @@ body:
   - type: checkboxes
     id: agreements
     attributes:
-      label: Editor Agreements
+      label: Editor Agreements (required)
       description: Please confirm the following agreements
       options:
         - label: I agree to serve as a PyOpenSci editor until I explicitly step down or my role is revoked
@@ -28,7 +30,7 @@ body:
   - type: textarea
     id: domain_expertise
     attributes:
-      label: Domain Expertise
+      label: Domain Expertise (required)
       description: Please describe your areas of domain expertise (e.g., geospatial analysis, machine learning, bioinformatics)
       placeholder: |
         Example:
@@ -41,7 +43,7 @@ body:
   - type: textarea
     id: technical_expertise
     attributes:
-      label: Technical Expertise
+      label: Technical Expertise (required)
       description: Please describe your technical expertise and experience with Python packages/tools
       placeholder: |
         Example:
@@ -59,6 +61,7 @@ body:
       options:
         - GitHub notifications (recommended) via this issue
         - Email
+      default: 0
     validations:
       required: true
 
