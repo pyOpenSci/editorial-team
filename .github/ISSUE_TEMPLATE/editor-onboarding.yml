@@ -1,0 +1,94 @@
+name: Editor Onboarding
+description: Sign up to become a PyOpenSci editor
+title: "Editor Onboarding: [Your Name]"
+labels: ["editor-onboarding"]
+assignees:
+  - lwasser
+  - slobentanzer
+body:
+  - type: markdown
+    attributes:
+      value: |
+        ## Welcome to PyOpenSci Editor Onboarding!
+        Thank you for your interest in becoming a PyOpenSci editor. Please fill out the form below to get started.
+
+  - type: checkboxes
+    id: agreements
+    attributes:
+      label: Editor Agreements
+      description: Please confirm the following agreements
+      options:
+        - label: I agree to serve as a PyOpenSci editor until I explicitly step down or my role is revoked
+          required: true
+        - label: I understand that this issue and its contents will be publicly visible
+          required: true
+        - label: I commit to following the PyOpenSci [Code of Conduct](https://www.pyopensci.org/handbook/CODE_OF_CONDUCT.html)
+          required: true
+
+  - type: textarea
+    id: domain_expertise
+    attributes:
+      label: Domain Expertise
+      description: Please describe your areas of domain expertise (e.g., geospatial analysis, machine learning, bioinformatics)
+      placeholder: |
+        Example:
+        - Climate science
+        - Remote sensing
+        - Environmental data analysis
+    validations:
+      required: true
+
+  - type: textarea
+    id: technical_expertise
+    attributes:
+      label: Technical Expertise
+      description: Please describe your technical expertise and experience with Python packages/tools
+      placeholder: |
+        Example:
+        - Scientific Python stack (NumPy, Pandas, etc.)
+        - Package development and distribution
+        - CI/CD workflows
+    validations:
+      required: true
+
+  - type: dropdown
+    id: contact_preference
+    attributes:
+      label: Preferred Contact Method
+      description: How would you prefer to be contacted for editor assignments?
+      options:
+        - GitHub notifications (recommended) via this issue
+        - Email
+    validations:
+      required: true
+
+  - type: input
+    id: email
+    attributes:
+      label: Email Address (optional)
+      description: Only if you selected email as your preferred contact method
+      placeholder: editor@example.com
+    validations:
+      required: false
+
+  - type: dropdown
+    id: status
+    attributes:
+      label: Editor Status
+      description: Current status as an editor
+      options:
+        - Active
+        - On Break
+        - Emeritus
+      default: 0
+    validations:
+      required: true
+
+  - type: textarea
+    id: additional_info
+    attributes:
+      label: Additional Information
+      description: Is there anything else you'd like us to know?
+      placeholder: Any additional information you'd like to share...
+    validations:
+      required: false
