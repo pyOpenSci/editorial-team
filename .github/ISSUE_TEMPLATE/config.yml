@@ -1,5 +1,5 @@
 blank_issues_enabled: false
 contact_links:
-  - name: PyOpenSci Documentation
-    url: https://www.pyopensci.org/
-    about: Please check our documentation for general information about PyOpenSci.
+  - name: pyOpenSci Documentation
+    url: https://www.pyopensci.org/software-peer-review/how-to/onboarding-guide.html
+    about: Please check our documentation for general information about pyOpenSci.
