@@ -2,7 +2,7 @@
 
 This repository manages PyOpenSci editor onboarding and assignments. To be onboarded as an editor:
 
-1. Navigate to the [Issues tab](https://github.com/pyOpenSci/editor-onboarding/issues)
+1. Navigate to the [Issues tab](https://github.com/pyOpenSci/editorial-team/issues)
 2. Click on "New Issue"
 3. Select the "Editor Onboarding" template
 4. Fill out all required information in the form:
