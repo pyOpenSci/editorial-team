@@ -80,6 +80,7 @@ body:
       label: Editor Status
       description: Current status as an editor
       options:
+        - Onboarding
         - Active
         - On Break
         - Emeritus
