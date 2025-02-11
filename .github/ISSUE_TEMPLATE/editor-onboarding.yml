@@ -1,6 +1,6 @@
 name: Editor Onboarding
 description: Sign up to become a PyOpenSci editor
-title: "Editor Onboarding: [Your Name]"
+title: "Please enter your name here"
 labels: ["editor-onboarding"]
 assignees:
   - lwasser
